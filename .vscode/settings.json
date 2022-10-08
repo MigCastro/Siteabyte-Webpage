@@ -3,5 +3,6 @@
     "vscode-pets.petSize": "medium",
     "vscode-pets.petType": "dog",
     "vscode-pets.position": "explorer",
-    "vscode-pets.theme": "castle"
+    "vscode-pets.theme": "castle",
+    "livePreview.defaultPreviewPath": "/Users/miguelcastro/Documents/Sites/siteabyte/index.html"
 }
