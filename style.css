@@ -55,7 +55,7 @@ nav ul li a:hover{
 }
 
 #contact-button{
-    background: #4070f4;
+    background: #0D45DE;
     padding: 10px;
     border-radius: 30px;
 }
@@ -120,7 +120,7 @@ nav ul li a:hover{
     color: #FF0000;
 }
 .wrapper a{
-	color: #4070f4;
+	color: #0D45DE;
     text-decoration: none;
 	font-family: 'Poppins', sans-serif;
 }
@@ -140,7 +140,7 @@ nav ul li a:hover{
     height: 3px;
     width: 28px;
     border-radius:12px;
-    background: #4070f4;
+    background: #0D45DE;
 }
 .wrapper form{
     margin-top: 2px;
@@ -187,7 +187,7 @@ form .message-box textarea{
 }
 .input-box input:focus,
 .input-box input:valid{
-    border-color: #4070f4;
+    border-color: #0D45DE;
 }
 form h3{
     color: #707070;
@@ -211,7 +211,7 @@ form h3{
     font-size: 20px;
     padding: 15px;
     border-radius: 30px;
-    background-color: #4070f4;
+    background-color: #0D45DE;
     color: #fff;
     border-width: 0;
 }
@@ -222,7 +222,7 @@ form .text h3{
 	
 }
 form .text h3 a{
-    color: #4070f4;
+    color: #0D45DE;
     text-decoration: none;
 	font-family: 'Poppins', sans-serif;
 	
