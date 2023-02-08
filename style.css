@@ -50,13 +50,25 @@ nav ul li a{
     color: #ffffff;
     font-size: 1.2vw;
 }
+nav ul li a:hover{
+    color:#4070f4;
+}
+
+#contact-button{
+    background: #4070f4;
+    padding: 10px;
+    border-radius: 30px;
+}
+#contact-button:hover{
+    background: #0e4bf1;
+    color:#fff;
+}
 
 .nav .nav-menu{    
     justify-content: space-between;
     display: flex;
     align-items: center;
 }
-
 .banner{
     display:flex;
     justify-content: space-between;
@@ -70,7 +82,10 @@ nav ul li a{
     justify-content: center;
     margin:40px;
 }
-
+.active{
+    color:#4070f4;
+}
+/* Start */
 #start {
     display:inline-block;
     align-items: center;
@@ -189,13 +204,13 @@ form h3{
     background: #4070f4;
     cursor:pointer;
 }
-.input-box.button input:hover{
+.input-box.button input:hover, .input-box.button.info input:hover{
     background: #0e4bf1;
 }
 .input-box.button.info input{
     font-size: 20px;
     padding: 15px;
-    border-radius: 20px;
+    border-radius: 30px;
     background-color: #4070f4;
     color: #fff;
     border-width: 0;
@@ -215,3 +230,4 @@ form .text h3 a{
 form .text h3 a:hover{
     text-decoration: underline;
 }
+/* About Us */
