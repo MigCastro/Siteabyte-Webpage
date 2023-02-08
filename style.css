@@ -60,7 +60,7 @@ nav ul li a:hover{
     border-radius: 30px;
 }
 #contact-button:hover{
-    background: #0e4bf1;
+    background: #1755ff;
     color:#fff;
 }
 
@@ -83,7 +83,10 @@ nav ul li a:hover{
     margin:40px;
 }
 .active{
-    color:#4070f4;
+    color:#5481fe;
+}
+.active:hover{
+    color:#0D45DE;
 }
 /* Start */
 #start {
@@ -187,7 +190,7 @@ form .message-box textarea{
 }
 .input-box input:focus,
 .input-box input:valid{
-    border-color: #0D45DE;
+    border-color: #1755ff;
 }
 form h3{
     color: #707070;
@@ -205,7 +208,7 @@ form h3{
     cursor:pointer;
 }
 .input-box.button input:hover, .input-box.button.info input:hover{
-    background: #0e4bf1;
+    background: #1755ff;
 }
 .input-box.button.info input{
     font-size: 20px;
