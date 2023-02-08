@@ -9,21 +9,82 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="assets/logo/siteabyte-icon.ico">
   </head>
-  <nav>
-    <a href="#"><img src="assets/logo/siteabyte-logo.png" alt="logo" width="100%"></a>
-    <a href="#">Home</a> 
-    <a href="#pricing">Pricing</a> 
-    <a href="#meeting">Contact</a> 
+
+  <nav class="nav">
+    <div class="nav-menu">
+      <div class="nav-logo">
+        <a href="#"><img src="assets/logo/siteabyte-logo.png" class="logo"></a>
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
   </nav>
   <body>
     <!--Start Section-->
     <section id="start">
-      <h1>SiteAByte</h1>
-      <h3>Web Design</h3>
+      <div class="container">
+        <div class="text-area">
+        <h1>Web Design</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae totam blanditiis ipsa perferendis, cum suscipit. Harum tenetur veritatis voluptatum dicta quasi iusto vel sit nam rem itaque, consequuntur blanditiis corporis?</p>
+        <h2>Starting from</h2>
+        <h3>$600</h3>
+        <div class="input-box button info">
+          <input type="submit" value="More Info">
+        </div>
+      </div>
+        <!--Meeting-->
+        <div class="wrapper">
+          <h1>Setup a Meeting</h1>
+          <form method="post" action="contact.asp">
+            <div class="input-box">
+              <input name="fName" type="text" placeholder="Name" required="">
+            </div>
+            <div class="input-box">
+              <input name="fEmail" type="email" placeholder="Email" required="">
+            </div>
+            <div class="message-box">
+              <textarea name="fMSG" placeholder="Message" rows="4" required=""></textarea>
+            </div>
+            <div class="input-box button">
+              <input type="Submit" value="SEND">
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!--What we offer-->
+    <section id="services">
+      <h1>What We Offer</h1>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae totam blanditiis ipsa perferendis, cum suscipit. Harum tenetur veritatis voluptatum dicta quasi iusto vel sit nam rem itaque, consequuntur blanditiis corporis?</p>
-      <h3>Starting from</h3>
-      <h3>$600</h3>
-      <!--Meeting-->
+    </section>
+
+    <!--Sites Worked With Section-->
+    <section id="work">
+      <h1>Webites We've Worked On</h1>
+      <a href="https://utopiamarketingllc.com" target="_blank"><img src="assets/devices/Devices-Utopia.png" alt="devices" width="100%"></a>
+    </section>
+
+    <!--Pricing Section-->
+    <section id="pricing">
+      <h1>Our Plans/Pricing</h1>
+      <p>Choosing the plan that suits your needs is very important</p>
+      <h3>Basic</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae totam blanditiis ipsa perferendis, cum suscipit. Harum tenetur veritatis voluptatum dicta quasi iusto vel sit nam rem itaque, consequuntur blanditiis corporis?</p>
+      <h3>Standard</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae totam blanditiis ipsa perferendis, cum suscipit. Harum tenetur veritatis voluptatum dicta quasi iusto vel sit nam rem itaque, consequuntur blanditiis corporis?</p>
+      <h3>Advanced</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae totam blanditiis ipsa perferendis, cum suscipit. Harum tenetur veritatis voluptatum dicta quasi iusto vel sit nam rem itaque, consequuntur blanditiis corporis?</p>
+    </section>
+
+    <!--Meeting Section-->
+    <section id="contact">
+      <h1>Contact</h1>
       <div class="wrapper">
         <h1>Setup a Meeting</h1>
         <form method="post" action="contact.asp">
@@ -43,44 +104,9 @@
       </div>
     </section>
 
-    <!--Sites Worked With Section-->
-    <section id="work">
-      <h1>Webites We've Worked On</h1>
-      <a href="https://utopiamarketingllc.com" target="_blank"><img src="assets/devices/Devices-Utopia.png" alt="devices" width="100%"></a>
-    </section>
-
-    <!--Pricing Section-->
-    <section id="pricing">
-      <h1>Pricing</h1>
-      <h3>Basic</h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae totam blanditiis ipsa perferendis, cum suscipit. Harum tenetur veritatis voluptatum dicta quasi iusto vel sit nam rem itaque, consequuntur blanditiis corporis?</p>
-      <h3>Standard</h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae totam blanditiis ipsa perferendis, cum suscipit. Harum tenetur veritatis voluptatum dicta quasi iusto vel sit nam rem itaque, consequuntur blanditiis corporis?</p>
-      <h3>Advanced</h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae totam blanditiis ipsa perferendis, cum suscipit. Harum tenetur veritatis voluptatum dicta quasi iusto vel sit nam rem itaque, consequuntur blanditiis corporis?</p>
-    </section>
-
-    <!--Meeting Section-->
-    <section id="meeting">
-      <h1>Have a Meeting with us!</h1>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae totam blanditiis ipsa perferendis, cum suscipit. Harum tenetur veritatis voluptatum dicta quasi iusto vel sit nam rem itaque, consequuntur blanditiis corporis?</p>
-      <div class="wrapper">
-        <form method="post" action="contact.asp">
-          <div class="input-box">
-            <input name="fName" type="text" placeholder="Name" required="">
-          </div>
-          <div class="input-box">
-            <input name="fEmail" type="email" placeholder="Email" required="">
-          </div>
-          <div class="message-box">
-            <textarea name="fMSG" placeholder="Message" rows="4" required=""></textarea>
-          </div>
-          <div class="input-box button">
-            <input type="Submit" value="SEND">
-          </div>
-        </form>
-      </div>
-
+    <!--Footer-->
+    <section id="footer">
+      
     </section>
   </body>
 </html>
