@@ -234,3 +234,38 @@ form .text h3 a:hover{
     text-decoration: underline;
 }
 /* About Us */
+#about, #portfolio, #plans, #contact{
+    text-align: center;
+    padding: 100px 0px;
+    background: #707070;
+    align-content: center;
+}
+#portfolio{
+    background: #a9a9a9;
+}
+#plans{
+    margin: 0;
+}
+#contact{
+    background: #a9a9a9;
+}
+#contact_us{
+    text-align: center;
+    display:inline-block;
+}
+.plans{
+    display: table;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+.planbox{
+    display: table-cell;
+    background: #000;
+    padding: 30px 30px;
+}
+
+/* Portfolio */
+
+#devices{
+    width: 60%;
+}
